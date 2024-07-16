@@ -1,0 +1,23 @@
+{
+  "name": "paynow_server",
+  "version": "1.0.0",
+  "description": "This is a paynow server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmud-me09/paynow-server.git"
+  },
+  "keywords": [
+    "paynow"
+  ],
+  "author": "Mahmud Hasan Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmud-me09/paynow-server/issues"
+  },
+  "homepage": "https://github.com/mahmud-me09/paynow-server#readme"
+}
