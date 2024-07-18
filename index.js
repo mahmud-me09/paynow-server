@@ -40,7 +40,7 @@ async function run() {
 
 		app.post("/jwt", async (req, res) => {
 			const user = req.body;
-			const token = jwt.sign(user, process.env.Secret, {
+			const token = jwt.sign(user.email, process.env.Secret, {
 				expiresIn: "7d",
 			});
 		});
